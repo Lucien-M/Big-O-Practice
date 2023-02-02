@@ -32,3 +32,14 @@ function1(list_of_values)
 function2(list_of_values)
 function3(list_of_values)
 function4(list_of_values)
+
+# Bonus
+def sum_of_list(numberedList):
+  listSum = 0
+  for i in numberedList:
+    listSum = listSum + i
+  return listSum
+
+print(sum_of_list([1,4,3]))
+
+# O(n) time complexity
